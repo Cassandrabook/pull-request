@@ -3,15 +3,38 @@
     padding: 0;
 }
 
-.form{
-    background-color: rgb(255, 234, 216);
-    width: 40%;
+body{
+    background-color: rgb(252, 233, 216);
+}
+
+.header{
     display: flex;
     justify-content: center;
-    margin: 0 auto;
+    align-items: center;
+    height: 20vh;
+    color: white;
+    font-size: 30px;
+}
 
+.form{
+    display: flex;
+    justify-content: center;
+    
     &__input, &__button{
         border: none;
         background-color: white;
+        padding: 0.5rem;
+        font-size: 16px;
+        
+    }
+
+    &__button{
+        transition: all 0.4s ease;
+        background: white;
+        color: rgb(247, 213, 183);
+    }
+    &__button:hover{
+        background: rgb(247, 213, 183);
+        color: white;
     }
 }
