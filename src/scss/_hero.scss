@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-color: rgb(255, 234, 216);
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+    &__input, &__button{
+        border: none;
+        background-color: white;
+    }
+}
